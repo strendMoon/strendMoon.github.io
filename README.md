@@ -1,1 +1,2 @@
-# strendMoon.github.io ЗАГРУЗОЧКА
+# strendMoon.github.io
+ЗАГРУЗОЧКА
