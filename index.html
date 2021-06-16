@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my-work</title>
+  <link rel="stylesheet" href="./dist/style.css">
+  <link rel="stylesheet" href="./dist/star.css">
+  <link rel="stylesheet" href="./dist/preloader.css">
+  <script src="http://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="dist/set1.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="preloader">
+      <div id="loader"></div>
+    </div>
+    <header class="header">
+      <div class="header__inner">
+        <div class="container">
+          <nav>
+            <a href="https://vk.com/strend">vk/strend</a>
+            <h1 class="header__title">my-work</h1>
+            <a href="senerks@mail.ru">почта</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="grid">
+          <figure class="effect-zoe">
+            <img src="./img/site-1.jpg" alt="img25"/>
+            <a href="http://konstovar.ru">
+              <figcaption>
+               <h2>перейти на <span>домен</span></h2>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+      </div>
+    </main>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+  </div>
+  <script>
+    [].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+      el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+    } );
+  </script></script>
+  <script src="./js/preloader.js">
+  </script>
+</body>
+</html>
