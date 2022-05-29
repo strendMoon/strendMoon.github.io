@@ -1,0 +1,279 @@
+<?php
+include('connect.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СкРемСтройПРО</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="arrow">
+    <img src="./img/icon/arrow.png" alt="arrow">
+</div>
+    <div class='header__pannel'></div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-menu">
+                <nav>
+                    <div class="header-menu__items">
+                        <a class="active" href="#header">Главная</a>
+                        <a href="#appartamets">Услуги</a>
+                        <a href="#reviews">Отзывы</a>
+                        <a href="#req">Оставить заявку</a>
+                    </div>
+                    <div class="header-menu__logo">
+                        <img src="./img/Logo.png" alt="Logo">
+                    </div>
+                </nav>
+            </div>
+            <div id='header' class="container">
+                <div class="header-content">
+                    <div class="header-content__title">
+                        <div class="slider">
+                            <div class="slider_block">
+                                <h1>РЕМОНТ И ОТДЕЛКА <br> ЖИЛЬЯ<br><br>Оставьте заявку прямо сейчас<br>
+                                    и получите скидку в 5%</h1>
+                            </div>
+                            <div class="slider_block">
+                                <h1>Выполним ремонт и отделку любой <br> сложности. С нами ваши квартиры <br> будут на
+                                    высоте.</h1>
+                            </div>
+                            <div class="slider_block">
+                                <h1>За 5 лет мы выстроили прозрачный и<br> легко управляемый процесс работы.</h1>
+                            </div>
+                            <div class="slider_block">
+                                <h1>Используем отделочные материалы <br> только от проверенных <br> производителей. <br>
+                                    Мы точно знаем, сколько их <br> понадобится и как с ними работать.</h1>
+                            </div>
+                        </div>
+                        <a class='req' href="#req">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="section">
+            <h1>Преимущества работы с нами</h1>
+            <div class="container">
+                <div class="section__content">
+                    <div class="section__content-block">
+                        <img src="./img/icon/work.png" alt="icon">
+                        <span>Мы на рынке<br>10 лет</span>
+                    </div>
+                    <div class="section__content-block">
+                        <img src="./img/icon/time.png" alt="icon">
+                        <span>Соблюдения сроков<br> строительства</span>
+                    </div>
+                    <div class="section__content-block">
+                        <img src="./img/icon/guarantee.png" alt="icon">
+                        <span>Гарантия<br>5 лет</span>
+                    </div>
+                    <div class="section__content-block">
+                        <img src="./img/icon/calc.png" alt="icon">
+                        <span>Расчет материалов<br> Расчет работ</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__price">
+            <div id="appartamets" class="container">
+                <div class="price__block">
+                    <div class="price__block-title">
+                            <h1>Ремонт квартир</h1>
+                            <span>Мы работаем по всей Москве и Подмосковью. 
+                            <br>Большой опыт свидетельствует о высоком качестве выполняемых работ,
+                            <br> а налаженные контакты с поставщиками стройматериалов позволяют
+                            <br> предложить одни из самых низких цен.</span>
+                    </div>
+                    <div class="price__block-desc">
+                            <span>Косметический ремонт <span>от 2 400 руб./м2</span></span>
+                            <span>Стандартный ремонт <span>от 6 900 руб./м2</span></span>
+                            <span>Ремонт бизнес-класса <span>от 9 000 руб./м2</span></span>
+                            <span>Капитальный ремонт <span>от 288 000 руб./м2</span></span>
+                    </div>
+                    <div class="price__block-image">
+                        <img src="./img/Gallery/image 23.png" alt="photo">
+                        <img src="./img/Gallery/image 22.png" alt="photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__price-logia">
+            <div id="logia" class="container">
+                <div class="price__block">
+                    <div class="price__block-title">
+                            <h1>Балконы и лоджии</h1>
+                            <span>Более семи лет мы устанавливаем профильные системы<br> разных конфигураций и размеров, соблюдая требования ГОСТ.<br> Выполняем внутреннюю и наружную отделку, монтируем кровлю,<br> укрепляем парапет, утепляем пол, стены, потолок.</span>
+                    </div>
+                    <div class="price__block-desc">
+                            <span>Холодное остекление <span>от 3 120 руб./м2</span></span>
+                            <span>Теплое остекление <span>от 2 800 руб./м2</span></span>
+                            <span>Безрамное остекление <span>от 29 500 руб./м2</span></span>
+                            <span>Отделка балконов <span>от 1 000 руб./м2</span></span>
+                    </div>
+                    <div class="price__block-image">
+                        <img src="./img/Gallery/image 36.png" alt="photo">
+                        <img src="./img/Gallery/image 37.png" alt="photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id='req' class='section__req'>
+            <div class="container">
+                <div class="section__block">
+                    <form action="send_call_back.php" method="POST">
+                        <span>Обратная связь</span>
+                        <label for="user_name">Введите имя</label>
+                        <input required minlength="2" maxlength="15" size="20" name="user_name" type="text" placeholder="Артем">
+                        <label for="user_email">Ваш email</label>
+                        <input required minlenght='5' size="10" size="5" maxlength="25" name="user_email" type="email" placeholder="example@mail.ru">
+                        <label maxlength="15" for="user_tel">Телефон</label>
+                        <input name="user_tel" type="tel" maxlength="12" placeholder="+7(ххх)-ххх-хх-хх">
+                        <label maxlength="15" for="user_comment">Комментарий</label>
+                        <input name="user_comment" type="text" maxlength="70" placeholder="До 70 символов">
+                        <div class="req__info">
+                            <span>Нажимая кнопку 'Отправить' вы соглашаетесь</br> с обработкой персональных
+                                данных</span>
+                        </div>
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+    <seciton class="main__fotorama">
+            <div class="container">
+                <div class="gallery">
+                    <div class="fotorama">
+                        <img src="./img/Gallery/image 20.png">
+                        <img src="./img/Gallery/image 21.png">
+                        <img src="./img/Gallery/image 24.png">
+                        <img src="./img/Gallery/image 25.png">
+                        <img src="./img/Gallery/image 26.png">
+                        <img src="./img/Gallery/image 27.png">
+                        <img src="./img/Gallery/image 28.png">
+                        <img src="./img/Gallery/image 29.png">
+                        <img src="./img/Gallery/image 30.png">
+                        <img src="./img/Gallery/image 31.png">
+                        <img src="./img/Gallery/image 32.png">
+                        <img src="./img/Gallery/image 33.png">
+                        <img src="./img/Gallery/image 34.png">
+                        <img src="./img/Gallery/image 35.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!--
+        <section class="section__info">
+            <div class="container">
+                <span class="info__title">
+                    О Нас
+                </span>
+                <span class="info__desc">
+                ООО "СК Ремстройпро"  специализируется на ремонтных и отделочных работах в - бизнес и - элит сегментах рынка квартирного ремонта.
+
+Для этого у нас есть все необходимое-грамотные  специалисты, проверенные бригады рабочих и многолетний опыт работы в этом направлении строительных услуг.
+Тесно сотрудничаем с дизайнерами и дизайн-студиям и можем предложить разработку подходящего, именно вам проекта.
+
+Поможем подобрать материалы, технические решения по водоснабжения, электрике, отоплению, вентиляции и кондиционированию.
+
+Каждый проект сопровождает персональный менеджер во взаимодействии с авторским и техническим надзором.
+Мы стараемся соответствовать высоким современным
+требованиям по менеджменту качества работ.
+                </span>
+            </div>
+        </section> -->
+        <section id='reviews' class="section__reviews">
+            <div class="container">
+                <div class="reviews__title">
+                    <h1>Отзывы</h1>
+                </div>
+                <div class="reviews__block">
+                    <div class="block__name">
+                        <span>
+                        Анна Светлова
+                        </span>
+                    </div>
+                    <div class="block__desc">
+                        <span>Компания ремонтировала нам студию под ключ. Планировка нестандартная, а хотелок было много. Большую часть задуманного удалось реализовать. Понравился подход к работе и оперативность. За 5 месяцев нам сделали абсолютно всё: от инженерки до установки мебели. Компанию рекомендовать могу, качество материалов и выполнения на достойном уровне.</span>
+                    </div>
+                    <div class="block__date">
+                        <span>23.08.2021</span>
+                    </div>  
+                </div>
+                <div class="reviews__block">
+                    <div class="block__name">
+                        <span>
+                        Аделина
+                        </span>
+                    </div>
+                    <div class="block__desc">
+                        <span>Компания ремонтировала нам студию под ключ. Планировка нестандартная, а хотелок было много. Большую часть задуманного удалось реализовать. Понравился подход к работе и оперативность. За 5 месяцев нам сделали абсолютно всё: от инженерки до установки мебели. Компанию рекомендовать могу, качество материалов и выполнения на достойном уровне.</span>
+                    </div>
+                    <div class="block__date">
+                        <span>27.07.2021</span>
+                    </div>  
+                </div>
+                <div class="reviews__block">
+                    <div class="block__name">
+                        <span>
+                        Макаров Иван
+                        </span>
+                    </div>
+                    <div class="block__desc">
+                        <span>Качественно и аккуратно выполнили отделку лоджии. Мы заказывали всё под ключ: внешнюю, внутреннюю, утепление, остекление. Все работы проведены без задержек по времени. Отдельно стоит отметить стоимость — абсолютно адекватный ценник. Ни в одной другой компании нам такого предложить не смогли. Теперь в помещении приятно находиться, а мы наконец-то смогли организовать небольшую зону отдыха.</span>
+                    </div>
+                    <div class="block__date">
+                        <span>15.05.2021</span>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logo">
+                        <img src="./img/Logo.png" alt="Logo">
+                    </div>
+                    <div class="footer__contact">
+                        <a href="tel:0000">+7(777)777-77-77</a>
+                        <a href="mailto:stroypro@internet.ru">stroypro@internet.ru</a>
+                    </div>
+                </div>
+                <div class="footer__nav">
+                    <div class="nav__column">
+                        <a href="#header">Главная</a>
+                    </div>
+                    <div class="nav__column">
+                        <a href="#appartamets">Услуги</a>
+                    </div>
+                    <div class="nav__column">
+                        <a href="#reviews">Отзывы</a>
+                    </div>
+                    <div class="nav__column">
+                        <a href="#req">Оставить заявку</a>
+                    </div>
+                    <div class="nav__column">
+                        <a href="politika.html">Политика конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./Scripts/slider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</body>
+
+</html>
